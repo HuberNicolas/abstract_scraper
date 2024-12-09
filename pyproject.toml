@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "abstract-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Nicolas Huber <nicolas.huber2@uzh.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyalex = "^0.15.1"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
