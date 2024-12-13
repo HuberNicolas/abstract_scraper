@@ -6,7 +6,7 @@ authors = ["Nicolas Huber <nicolas.huber2@uzh.ch>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.12.3"
 pyalex = "^0.15.1"
 requests = "^2.32.3"
 pandas = "^2.2.3"
